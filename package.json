@@ -28,7 +28,7 @@
         "resetMocks": false
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "(cd ./backend && npm run start) && react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --json --outputFile=testReport.json",
         "eject": "react-scripts eject"
